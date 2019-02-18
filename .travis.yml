@@ -1,0 +1,7 @@
+language: cpp,
+os: osx,
+compiler: clang,
+script:
+  - mkdir build
+  - cd build
+  - cmake ..
