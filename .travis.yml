@@ -2,6 +2,10 @@ language: cpp,
 os: osx,
 compiler: clang,
 script:
-  - mkdir build
-  - cd build
-  - cmake ..
+- mkdir build
+- cd build
+- cmake ..
+addons:
+  homebrew:
+    packages:
+    - awscli
