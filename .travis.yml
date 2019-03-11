@@ -1,6 +1,7 @@
-language: cpp,
-os: osx,
-compiler: clang,
+language: cpp
+os: osx
+osx_image: xcode10
+compiler: clang
 script:
 - mkdir build
 - cd build
