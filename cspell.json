@@ -1,0 +1,44 @@
+{
+    "version": "0.1",
+    "language": "en-US",
+    "words": [
+        // C++ STL: <regex>
+        "smatch",
+        // AWS general terms
+        "Arns", "AMZN", "amzn",
+        // AWS Signature V2
+        "SIGV", "AUTHV",
+        // CMake
+        "cmake",
+        // Compiler and linker
+        "Wpedantic", "Wextra", "Werror", "xldscope", "Wtype", "Wunused",
+        // Android NDK
+        "JNIEXPORT", "jint", "JNICALL", "jobject", "jclass", "jmethod", "Ljava",
+        // XML parser
+        "QNXNTO", "TIXMLASSERT", "TIXML", "Untracked",
+        // Json parser
+        "Jsonize", "CJSON", "cjson",
+        // IXMLHTTPRequest2
+        "IXML", "IXMLHTTP", "HRESULT", "REFIID", "EXCEPINFO", "CLSID", "INPROC", "ONDATA",
+        // Crypto
+        "decryptor", "encryptor", "NTSTATUS", "PBYTE", "PUCHAR", "noconf", "HAMC", "PBCRYPT",
+        // MSVC
+        "MSFT", "LPDWORD", "DATAW", "mkgmtime", "vscprintf", "wtoi",
+        // EC2
+        "IMDS",
+        // Cognito
+        "cognito"
+    ],
+    "ignoreWords": [
+        // variables defined in ConcurrentStreamBuf
+        "pbegin", "gbegin",
+        // functions defined in UUID
+        "hexify",
+        // enums defined in HttpResponse
+        "UNPROC",
+        // in DefaultRateLimiter
+        "renormalize",
+        // parameters defined in tinyxml2
+        "uval"
+    ]
+}

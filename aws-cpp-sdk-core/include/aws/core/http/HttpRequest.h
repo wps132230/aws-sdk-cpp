@@ -57,7 +57,7 @@ namespace Aws
         class HttpResponse;
 
         /**
-         * closure type for recieving notifications that data has been recieved.
+         * closure type for receiving notifications that data has been received.
          */
         typedef std::function<void(const HttpRequest*, HttpResponse*, long long)> DataReceivedEventHandler;
         /**
@@ -89,7 +89,7 @@ namespace Aws
              */
             virtual HeaderValueCollection GetHeaders() const = 0;
             /**
-             * Get the value for a Header based on its name. (in default StandardHttpRequest implementation, an empty string will be returned if headerName dosen't exist)
+             * Get the value for a Header based on its name. (in default StandardHttpRequest implementation, an empty string will be returned if headerName doesn't exist)
              */
             virtual const Aws::String& GetHeaderValue(const char* headerName) const = 0;
             /**
